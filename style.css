@@ -151,6 +151,7 @@ a:hover { color: var(--accent2); }
     justify-content: center;
     gap: 2.5rem;
     counter-reset: nav-item;
+    z-index: 99;
   }
   .nav-links.open { display: flex; }
   .nav-links a { font-size: 1.1rem; }
